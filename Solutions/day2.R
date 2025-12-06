@@ -24,10 +24,9 @@ ll_is_valid = lapply(ll, function(x){ sapply(x, is_valid) })
 sum(unlist(ll_is_valid))
 
 # Function to evaluate if a number is valid - Part 2
-library(RcppAlgos)
 is_valid_p2 = function(x){
   x_s = strsplit(as.character(x), "")[[1]]
-  for(i in divisorsRcpp(length(x_s))){
+  for(i in 1:ceiling(length(x_s)/2)){
     if(i == length(x_s))
       next()
     if(as.character(x) == paste0(rep(x_s[1:i], length(x_s)/i), collapse = ""))
