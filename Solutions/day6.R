@@ -1,5 +1,5 @@
 # Input
-input = readLines("Inputs/day6_1.txt")
+input = readLines("Inputs/day6.txt")
 input_s = strsplit(input, " ", fixed = T)
 input_c = as.matrix(sapply(input_s, function(x){ x[which(x != "")]}), ncol = length(input_s))
 

@@ -1,5 +1,5 @@
 # Input
-input = readLines("Inputs/day3_1.txt")
+input = readLines("Inputs/day3.txt")
 
 # Function to find the top numbers in order and the max Joltage
 max_joltage = function(x, steps){

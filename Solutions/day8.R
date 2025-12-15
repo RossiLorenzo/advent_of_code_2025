@@ -1,5 +1,5 @@
 # Input
-input = readLines("Inputs/day8_1.txt")
+input = readLines("Inputs/day8.txt")
 
 # Explode & Clean
 cross_joined = expand.grid(input, input, stringsAsFactors = F)

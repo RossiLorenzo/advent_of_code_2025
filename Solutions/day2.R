@@ -1,5 +1,5 @@
 # Input
-input = readLines("Inputs/day2_1.txt")
+input = readLines("Inputs/day2.txt")
 input_s = strsplit(input, ",", fixed = T)[[1]]
 input_ss = strsplit(input_s, "-", fixed = T)
 

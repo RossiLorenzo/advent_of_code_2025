@@ -1,5 +1,5 @@
 # Input
-input = readLines("Inputs/day1_1.txt")
+input = readLines("Inputs/day1.txt")
 input_ss = strsplit(input, "", fixed = T)
 
 # Function to move the dial

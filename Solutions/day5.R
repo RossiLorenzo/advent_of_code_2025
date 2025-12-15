@@ -1,5 +1,5 @@
 # Input
-input = readLines("Inputs/day5_1.txt")
+input = readLines("Inputs/day5.txt")
 ranges = input[1:(which(input == "")-1)]
 ingredients = as.numeric(input[(which(input == "")+1):length(input)])
 

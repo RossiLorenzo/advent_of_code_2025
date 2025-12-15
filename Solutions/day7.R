@@ -1,5 +1,5 @@
 # Input
-input = readLines("Inputs/day7_1.txt")
+input = readLines("Inputs/day7.txt")
 input_s = strsplit(input, "", fixed = T)
 input_c = matrix(unlist(input_s), byrow = T, nrow = length(input_s))
 
